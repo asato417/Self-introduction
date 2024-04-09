@@ -1,0 +1,75 @@
+/* 見出しの編集 */
+.midashi{
+    /* 要素を横並びに */
+    display: flex;
+    /* div内に余白を */
+    padding: 15px;
+    /* 背景 */
+    background-color: black;
+    /* 文字色 */
+    color: white;
+
+}
+
+/* ホームアイコンの編集 */
+.home {
+    /* アイコンの編集 */
+    width: fit-content;
+    /* アイコン内の背景色 */
+    background-color: white;
+    /* アイコン内の余白 */
+    padding: 1px;
+    /* アイコンを右寄せ */
+    margin-left: 1075px;
+    /* div要素全体にリンクをつけるために必要な要素 */
+    position: relative;
+
+}
+.home a {
+    /* div要素全体にリンクをつけるために必要な要素 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.home a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
+
+/* boxクラスの編集 */
+.box{
+    /* div内の要素を横並びに */
+    display: flex;
+    /* 横幅設定 */
+    width: fit-content;
+    /* 中央寄せ */
+    margin: auto;
+    
+}
+
+/* hobby-boxクラスの編集 */
+.hobby-box {
+    /* アイコンの編集 */
+    width: 200px;
+    text-align: center;
+    /* アイコン内の背景色 */
+    background-color: white;
+    /* アイコン内の余白 */
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    /* アイコン外の余白 */
+    margin: 20px;
+
+}
+
+/* コメントの編集 */
+h3{
+    /* 左寄せ */
+    text-align: left;
+    /* 文字色 */
+    color: gray;
+}

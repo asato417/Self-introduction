@@ -1,0 +1,63 @@
+/* 見出しの編集 */
+.midashi{
+    /* div内の余白 */
+    padding: 15px;
+    /* 背景 */
+    background-color: black;
+    /* 文字色 */
+    color: white;
+    /* 文字中央寄せ */
+    text-align: center;
+
+}
+
+/* 本文の編集 */
+.honbun{
+    /* div内の余白 */
+    padding: 15px;
+    /* 背景 */
+    background-color: lightgray;
+    /* 文字中央寄せ */
+    text-align: center;
+
+}
+
+/* linkboxクラスの編集 */
+.linkbox{
+    /* div内の要素を横並びに */
+    display: flex;
+    /* 横幅設定 */
+    width: fit-content;
+    /* 中央寄せ */
+    margin: auto; 
+}
+
+/* アイコンの編集 */
+.icon {
+    /* 横幅設定 */
+    width: fit-content;
+    /* アイコン内の背景色 */
+    background-color: white;
+    /* アイコン内の余白 */
+    padding: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 50px;
+    /* アイコン外の余白 */
+    margin: 20px;
+    /* div要素全体にリンクをつけるために必要な要素 */
+    position: relative;
+
+}
+.icon a {
+    /* div要素全体にリンクをつけるために必要な要素 */
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:100%;
+    width: 100%;
+}
+.icon a:hover{/* マウスオーバー時に色変更*/
+    opacity: 0.1;
+    background-color: #000000;
+}
